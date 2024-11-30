@@ -1,0 +1,51 @@
+/* Sidebar styles */
+.sidebar {
+  position: fixed; /* Make the sidebar fixed */
+  top: 0;
+  left: 0;
+  width: 250px; /* Set width for the sidebar */
+  height: 100%; /* Ensure sidebar reaches the full height of the screen */
+  background-color: #333; /* Sidebar background color */
+  color: white; /* Text color */
+  padding: 20px; /* Padding inside the sidebar */
+  display: flex;
+  flex-direction: column; /* Stack the elements vertically */
+  align-items: center; /* Center elements horizontally */
+  z-index: 1000; /* Ensure the sidebar is on top of other content */
+}
+
+.sidebar__image {
+  width: 100px; /* Set image size */
+  height: 100px;
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 20px; /* Space between image and title */
+}
+
+.sidebar__title {
+  font-size: 1.5rem;
+  margin-bottom: 20px; /* Space between title and nav */
+}
+
+.sidebar__list {
+  display: flex;
+  flex-direction: column; /* Stack nav items vertically */
+  width: 100%;
+  flex-grow: 1; /* Ensures the navigation takes all remaining vertical space */
+  justify-content: flex-start; /* Align navigation links at the top */
+}
+
+.sidebar__link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px 0;
+  transition: background-color 0.3s;
+}
+
+.sidebar__link-active {
+  background-color: #555; /* Active link background */
+}
+
+.sidebar__link:hover {
+  background-color: #444; /* Hover effect */
+}
