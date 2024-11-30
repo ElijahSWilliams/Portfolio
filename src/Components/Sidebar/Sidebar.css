@@ -26,12 +26,16 @@
   margin-bottom: 20px; /* Space between title and nav */
 }
 
+.sidebar__subtitle {
+}
+
 .sidebar__list {
   display: flex;
   flex-direction: column; /* Stack nav items vertically */
   width: 100%;
   flex-grow: 1; /* Ensures the navigation takes all remaining vertical space */
   justify-content: flex-start; /* Align navigation links at the top */
+  text-align: center;
 }
 
 .sidebar__link {
@@ -48,4 +52,38 @@
 
 .sidebar__link:hover {
   background-color: #444; /* Hover effect */
+}
+
+/* Updated Social Icons Container */
+.social__icons {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  margin-top: 20px; /* Space from the navigation links */
+}
+
+.social__icons li {
+  list-style: none; /* Remove default list styles */
+  margin: 0 10px; /* Add space between icons */
+}
+
+.social__icon-github,
+.social__icon-twitter,
+.social__icon-linkedin {
+  width: 40px; /* Icon size */
+  height: 40px;
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.social__icon-github img,
+.social__icon-twitter img,
+.social__icon-linkedin img {
+  width: 100%; /* Make images fill container */
+  height: 100%;
+}
+
+/* Hover Effect */
+.social__icon-github:hover,
+.social__icon-twitter:hover,
+.social__icon-linkedin:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
 }
