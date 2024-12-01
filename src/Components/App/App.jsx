@@ -1,14 +1,20 @@
 import { useState } from "react";
 import "./App.css";
-import Header from "../Header/Header";
+import Home from "../Home/Home";
 import SideBar from "../Sidebar/Sidebar";
+import { Routes, Route } from "react-router-dom";
+import Skills from "../Skills/Skills";
+import About from "../About/About";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="page">
       <SideBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+      </Routes>
     </div>
   );
 }

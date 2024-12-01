@@ -25,8 +25,8 @@ function Sidebar() {
         <NavLink to="/about" className={customClass}>
           About
         </NavLink>
-        <NavLink to="/services" className={customClass}>
-          Services
+        <NavLink to="/skills" className={customClass}>
+          Skills
         </NavLink>
         <NavLink to="/contact" className={customClass}>
           Contact
