@@ -18,26 +18,28 @@ function Sidebar() {
       <h2 className="sidebar__title">Elijah Williams</h2>
       <p className="sidebar__subtitle">Full-Stack Developer</p>
       {/* Sidebar Navigation */}
-      <nav className="sidebar__list">
-        <NavLink to="/" className={customClass}>
-          Home
-        </NavLink>
-        <NavLink to="/about" className={customClass}>
-          About
-        </NavLink>
-        <NavLink to="/skills" className={customClass}>
-          Skills
-        </NavLink>
-        <NavLink to="/contact" className={customClass}>
-          Contact
-        </NavLink>
-      </nav>
+      <div className="sidebar__list">
+        <nav className="sidebar__nav-list">
+          <NavLink to="/" className={customClass}>
+            Home
+          </NavLink>
+          <NavLink to="/about" className={customClass}>
+            About
+          </NavLink>
+          <NavLink to="/skills" className={customClass}>
+            Skills
+          </NavLink>
+          <NavLink to="/contact" className={customClass}>
+            Contact
+          </NavLink>
+        </nav>
+      </div>
 
       <div className="social__icons">
         <ul className="social__icons">
           <li className="social__icon-github">
             <a
-              href="https://github.com/yourprofile"
+              href="https://github.com/RealnNTrue16"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -46,7 +48,7 @@ function Sidebar() {
           </li>
           <li className="social__icon-linkedin">
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/elijah-williams-5a428a282/"
               target="_blank"
               rel="noopener noreferrer"
             >
