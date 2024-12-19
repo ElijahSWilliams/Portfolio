@@ -4,6 +4,7 @@ import "./Sidebar.css"; // Assuming you have a separate CSS file for styling
 import stockProfile from "../../assets/stockProfilePic.jpg";
 import githubIcon from "../../assets/githublogo.jpg";
 import linkedInIcon from "../../assets/linkedinicon.png";
+import avatar from "../../assets/avatar.jpeg";
 
 function Sidebar() {
   // Custom class for active links
@@ -13,7 +14,7 @@ function Sidebar() {
 
   return (
     <div className="sidebar">
-      <img src={stockProfile} className="sidebar__image"></img>
+      <img src={avatar} className="sidebar__image"></img>
 
       <h2 className="sidebar__title">Elijah Williams</h2>
       <p className="sidebar__subtitle">Full-Stack Developer</p>
@@ -39,7 +40,7 @@ function Sidebar() {
         <ul className="social__icons">
           <li className="social__icon-github">
             <a
-              href="https://github.com/RealnNTrue16"
+              href="https://github.com/ElijahSWilliams"
               target="_blank"
               rel="noopener noreferrer"
             >
