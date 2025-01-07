@@ -30,6 +30,9 @@ function Sidebar() {
           <NavLink to="/skills" className={customClass}>
             Skills
           </NavLink>
+          <NavLink to="/projects" className={customClass}>
+            Projects
+          </NavLink>
           <NavLink to="/contact" className={customClass}>
             Contact
           </NavLink>
