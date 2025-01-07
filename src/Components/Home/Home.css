@@ -3,5 +3,19 @@
 }
 
 .home__title {
-  margin-top: 0px;
+  margin-top: 300px;
+  margin-left: 150px;
+}
+
+.home__description {
+  margin-left: 150px;
+}
+
+.home__button {
+  margin-left: 150px;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  border-radius: 20px;
+
+  padding: 15px;
 }
