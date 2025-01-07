@@ -1,3 +1,7 @@
 .skills {
   text-align: center;
 }
+
+.skills__title {
+  margin-top: 0px;
+}
